@@ -1,0 +1,16 @@
+{
+	"name": "CharpDev",
+	"dockerFile": "Dockerfile",
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+	"forwardPorts": [],
+	"extensions": [
+		"dbaeumer.vscode-eslint",
+		"mhutchie.git-graph",
+		"cmstead.jsrefactor",
+		"ms-vscode.vscode-typescript-tslint-plugin",
+		"rbbit.typescript-hero",
+		"dskwrk.vscode-generate-getter-setter"
+	]
+}
