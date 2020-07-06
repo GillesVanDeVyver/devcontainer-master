@@ -1,0 +1,16 @@
+{
+	"name": "worker",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"compile": "tsc src/index.ts --outDir dist",
+		"start": "node dist/index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "yarncraft",
+	"license": "MIT",
+	"dependencies": {
+		"got": "^11.3.0"
+	}
+}
